@@ -470,7 +470,7 @@
 
                   <div class="cuadro-lg">
 
-                        <figure class="effect-apollo lg" style="width:100%;">
+                        <figure class="effect-apollo lg umbrella" style="width:100%;">
                             <img src="images/umbrella.jpg" alt=""/>
 
                                 <figcaption>
@@ -617,7 +617,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="435" height="345" alt="">
+          <img src="images/forti-web.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -642,7 +642,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="435" height="345" alt="">
+          <img src="images/forti-web.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -668,7 +668,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="435" height="345" alt="">
+          <img src="images/forti-web.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -696,7 +696,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="435" height="345" alt="">
+          <img src="images/forti-web.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -722,7 +722,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="435" height="345" alt="">
+          <img src="images/forti-web.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -749,7 +749,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="435" height="345" alt="">
+          <img src="images/forti-web.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -778,7 +778,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="435" height="345" alt="">
+          <img src="images/forti-web.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -806,7 +806,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="435" height="345" alt="">
+          <img src="images/forti-web.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -832,7 +832,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="435" height="345" alt="">
+          <img src="images/forti-web.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -860,7 +860,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="435" height="345" alt="">
+          <img src="images/forti-web.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -1006,78 +1006,13 @@
 
   <script src="js/bootstrap.js" charset="utf-8"></script>
 
-  <script>
-
-  $(document).ready(function(){
 
 
-cambiarPdf();
-cambiarPdf1();
-cambiarPdf2();
-
-});
-
-  </script>
-
-<script type="text/javascript">
-
-function cambiarPdf() {
-    var width = document.documentElement.clientWidth;
-      var btnMov = document.getElementById("botonMovil");
-      var btnWeb = document.getElementById("botonWeb");
-      btnMov.style.display = "none";
-      btnWeb.style.display = "block";
-    if (width < 1000 ){
-      btnMov.style.display = "block";
-      btnWeb.style.display = "none";
-    }else{
-      btnMov.style.display = "none";
-      btnWeb.style.display = "block";
-    }
-}
-
-</script>
-
-<script>
 
 
-function cambiarPdf1() {
-    var width = document.documentElement.clientWidth;
-      var btnMov1 = document.getElementById("botonMovil1");
-      var btnWeb1 = document.getElementById("botonWeb1");
-      btnMov1.style.display = "none";
-      btnWeb1.style.display = "block";
-    if (width < 1000 ){
-      btnMov1.style.display = "block";
-      btnWeb1.style.display = "none";
-    }else{
-      btnMov1.style.display = "none";
-      btnWeb1.style.display = "block";
-    }
-}
 
 
-</script>
 
-<script type="text/javascript">
-
-function cambiarPdf2() {
-    var width = document.documentElement.clientWidth;
-      var btnMov1 = document.getElementById("botonMovil2");
-      var btnWeb1 = document.getElementById("botonWeb2");
-      btnMov1.style.display = "none";
-      btnWeb1.style.display = "block";
-    if (width < 1000 ){
-      btnMov1.style.display = "block";
-      btnWeb1.style.display = "none";
-    }else{
-      btnMov1.style.display = "none";
-      btnWeb1.style.display = "block";
-    }
-}
-
-
-</script>
 
   <script>
     function enviarBtn(){

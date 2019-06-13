@@ -1,4 +1,7 @@
 
+
+
+
 *{
 
 padding: 0px;
@@ -280,13 +283,13 @@ color: white;
 
 .modal-header{
 
-background-color: #9f4141;
+background-color: #005073;
 
 }
 
 .modal-footer{
 
-background-color: #9f4141;
+background-color: #005073;
 
 }
 
@@ -332,17 +335,6 @@ text-align: center;
 
 
 
-@media (max-width: 1080px) {
-
-
-  .boton{
-
-
-  width: 232px !important;
-
-  }
-
-}
 
 
 
