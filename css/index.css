@@ -527,7 +527,7 @@ figure.effect-apollo:hover p {
 	overflow: hidden;
 	margin: 10px 1%;
 	min-width: 320px;
-	max-width: 842px;
+	max-width: 880px;
 	max-height: 306px;
 	width: 48%;
 	height: auto;
@@ -604,3 +604,62 @@ figure.effect-apollo:hover p {
 text-shadow: 5px 5px 5px black;
 
 }
+
+
+
+/*responsivo alv*/
+
+@media only screen and (max-width: 1453px) {
+  body {
+    background-color: lightblue;
+  }
+
+
+  .cuadro figure {
+      position: relative;
+      float: left;
+      overflow: hidden;
+      margin: 10px 1%;
+      min-width: 320px;
+      max-width: 100%;
+      max-height: 360px;
+      width: 100%;
+      height: auto;
+      background: #3085a3;
+      text-align: center;
+      cursor: pointer;
+
+}
+
+
+.cuadro figure figcaption, .cuadro figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+figure.effect-apollo img {
+
+    opacity: 0.95;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.05,1.05,1);
+    width: 100%;
+
+}
+
+    .cuadro-lg figure {
+
+        position: relative;
+        float: left;
+        overflow: hidden;
+        margin: 10px 1%;
+        min-width: 320px;
+        max-width: 880px;
+        max-height: 360px!important;
+      }
+
+  }

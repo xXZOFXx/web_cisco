@@ -91,7 +91,7 @@
 
                     <div class="box-form" style="padding-top: 67px;padding-bottom: 0px;">
                       <div class="col gratis" align="center">
-                        <h2 style="margin-top: -46px;margin-bottom: 2.5rem; "><bold style="color:red; font-size:55px; font-weight:50px; ">GRATIS</bold> obtenga una evaluación de ciberamenazas.</h2>
+                        <h2 style="margin-top: -46px;margin-bottom: 2.5rem; ">Dejanos tus datos y recibe más información.</h2>
                       </div>
 
                       <form class="container" id="form-validation" method="post">
@@ -471,7 +471,7 @@
                   <div class="cuadro-lg">
 
                         <figure class="effect-apollo lg umbrella" style="width:100%;">
-                            <img src="images/umbrella.jpg" alt=""/>
+                            <img src="images/meraki.jpg" alt=""/>
 
                                 <figcaption>
                                   <h2>Cisco Umbrella</h2>
@@ -617,7 +617,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="auto" height="auto" alt="">
+          <img src="images/1.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -642,7 +642,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="auto" height="auto" alt="">
+          <img src="images/2.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -668,7 +668,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="auto" height="auto" alt="">
+          <img src="images/3.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -696,7 +696,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="auto" height="auto" alt="">
+          <img src="images/4.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -722,7 +722,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="auto" height="auto" alt="">
+          <img src="images/5.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -749,7 +749,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="auto" height="auto" alt="">
+          <img src="images/6.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -778,7 +778,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="auto" height="auto" alt="">
+          <img src="images/7.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -806,7 +806,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="auto" height="auto" alt="">
+          <img src="images/8.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -832,7 +832,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="auto" height="auto" alt="">
+          <img src="images/9.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
@@ -860,7 +860,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/forti-web.png" width="auto" height="auto" alt="">
+          <img src="images/10.png" width="auto" height="auto" alt="">
 
         </div>
       </div>
