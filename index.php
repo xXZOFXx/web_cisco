@@ -8,7 +8,7 @@
 <meta name="author" content="Codrops" />
 
 
-        <link rel="icon" href="images/icon.png" width="10" height"10">
+        <link rel="icon" href="images/icon1.png" width="10" height"10">
         <script src="js/jquery.js" charset="utf-8"></script>
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -38,7 +38,7 @@
 
     <nav class="navbar navbar-dark" style="background:#005073;">
         <a class="navbar-brand" href="#">
-          <img src="images/icon.png" width="100" height="40" alt="">
+          <img src="images/icon1.png" width="80" height="40" alt="">
             </a>
                 </nav>
 
@@ -89,10 +89,8 @@
 
                   <div class="">
 
-                    <div class="box-form" style="padding-top: 67px;padding-bottom: 0px;">
-                      <div class="col gratis" align="center">
-                        <h2 style="margin-top: -46px;margin-bottom: 2.5rem; ">Dejanos tus datos y recibe más información.</h2>
-                      </div>
+                    <div class="box-form" >
+                      <h2 style="margin:5%; color:white; padding-top: 3%;text-align:center; ">Dejanos tus datos y recibe más información.</h2>
 
                       <form class="container" id="form-validation" method="post">
                         <div class="row">
@@ -445,7 +443,7 @@
 
           <div class="cuadro">
               <figure class="effect-apollo">
-                  <img src="images/firewall.jpg" alt="img18"/>
+                  <img src="images/firewall.jpg"  alt="img18"/>
 
                   <figcaption>
                       <h2>Next Generation firewalls</h2>
@@ -471,7 +469,7 @@
                   <div class="cuadro-lg">
 
                         <figure class="effect-apollo lg umbrella" style="width:100%;">
-                            <img src="images/meraki.jpg" alt=""/>
+                            <img src="images/umbrella1.jpg" alt=""/>
 
                                 <figcaption>
                                   <h2>Cisco Umbrella</h2>
@@ -617,7 +615,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/1.png" width="auto" height="auto" alt="">
+          <img src="images/1.png" width="100%" height="100%" alt="">
 
         </div>
       </div>
@@ -642,7 +640,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/2.png" width="auto" height="auto" alt="">
+          <img src="images/2.png" width="100%" height="100%" alt="">
 
         </div>
       </div>
@@ -668,7 +666,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/3.png" width="auto" height="auto" alt="">
+          <img src="images/3.png" width="100%" height="100%" alt="">
 
         </div>
       </div>
@@ -696,7 +694,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/4.png" width="auto" height="auto" alt="">
+          <img src="images/4.png" width="100%" height="100%" alt="">
 
         </div>
       </div>
@@ -722,7 +720,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/5.png" width="auto" height="auto" alt="">
+          <img src="images/5.png" width="100%" height="100%" alt="">
 
         </div>
       </div>
@@ -749,7 +747,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/6.png" width="auto" height="auto" alt="">
+          <img src="images/6.png" width="100%" height="100%" alt="">
 
         </div>
       </div>
@@ -778,7 +776,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/7.png" width="auto" height="auto" alt="">
+          <img src="images/7.png" width="100%" height="100%" alt="">
 
         </div>
       </div>
@@ -806,7 +804,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/8.png" width="auto" height="auto" alt="">
+          <img src="images/8.png" width="100%" height="100%" alt="">
 
         </div>
       </div>
@@ -832,7 +830,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/9.png" width="auto" height="auto" alt="">
+          <img src="images/9.png" width="100%" height="100%" alt="">
 
         </div>
       </div>
@@ -860,7 +858,7 @@
     <div class="modal-body">
       <div class="container-fluid">
         <div class="row">
-          <img src="images/10.png" width="auto" height="auto" alt="">
+          <img src="images/10.png" width="100%" height="100%" alt="">
 
         </div>
       </div>

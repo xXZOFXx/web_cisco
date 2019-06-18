@@ -610,9 +610,6 @@ text-shadow: 5px 5px 5px black;
 /*responsivo alv*/
 
 @media only screen and (max-width: 1453px) {
-  body {
-    background-color: lightblue;
-  }
 
 
   .cuadro figure {
@@ -663,3 +660,11 @@ figure.effect-apollo img {
       }
 
   }
+
+
+  @media (min-width: 576px){
+.modal-dialog{
+    max-width: 811px;
+    margin: 1.75rem auto;
+}
+}
