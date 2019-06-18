@@ -38,7 +38,7 @@
 
     <nav class="navbar navbar-dark" style="background:#005073;">
         <a class="navbar-brand" href="#">
-          <img src="images/icon1.png" width="80" height="40" alt="">
+          <img src="images/icon1.png" width="60" height="40" alt="">
             </a>
                 </nav>
 
@@ -468,8 +468,8 @@
 
                   <div class="cuadro-lg">
 
-                        <figure class="effect-apollo lg umbrella" style="width:100%;">
-                            <img src="images/CiscoUmbrella.jpg" alt=""/>
+                        <figure class="effect-apollo lg " style="width:100%;">
+                            <img src="images/CiscoUmbrella.jpg" alt="img22"/>
 
                                 <figcaption>
                                   <h2>Cisco Umbrella</h2>
@@ -608,7 +608,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title" id="exampleModalLongTitle">Next Generation firewalls</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" class="cerrar" data-dismiss="modal" aria-label="cerrar">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -621,7 +621,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
 
     </div>
   </div>
@@ -633,7 +633,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title" id="exampleModalLongTitle">protección avanzada contra malware</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" class="cerrar" data-dismiss="modal" aria-label="cerrar">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -646,7 +646,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
 
     </div>
   </div>
@@ -659,7 +659,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title" id="exampleModalLongTitle">Cisco Umbrella</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" class="cerrar" data-dismiss="modal" aria-label="cerrar">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -672,7 +672,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
 
     </div>
   </div>
@@ -687,7 +687,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title" id="exampleModalLongTitle">Cisco meraki cloud managed</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" class="cerrar" data-dismiss="modal" aria-label="cerrar">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -700,7 +700,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
 
     </div>
   </div>
@@ -713,7 +713,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title" id="exampleModalLongTitle">Cisco AMP for Endpoints</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" class="cerrar" data-dismiss="modal" aria-label="cerrar">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -726,7 +726,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
 
     </div>
   </div>
@@ -740,7 +740,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title" id="exampleModalLongTitle">Cisco AMP for Networks</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" class="cerrar" data-dismiss="modal" aria-label="cerrar">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -753,7 +753,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
 
     </div>
   </div>
@@ -769,7 +769,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title" id="exampleModalLongTitle">Servicios de Identidad De Cisco</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" class="cerrar" data-dismiss="modal" aria-label="cerrar">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -782,7 +782,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
 
     </div>
   </div>
@@ -797,7 +797,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title" id="exampleModalLongTitle">Cisco Stealthwatch</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" class="cerrar" data-dismiss="modal" aria-label="cerrar">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -810,7 +810,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
 
     </div>
   </div>
@@ -823,7 +823,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title" id="exampleModalLongTitle">Cisco email security</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" class="cerrar" data-dismiss="modal" aria-label="cerrar">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -836,7 +836,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
 
     </div>
   </div>
@@ -851,7 +851,7 @@
   <div class="modal-content">
     <div class="modal-header">
       <h5 class="modal-title" id="exampleModalLongTitle">Seguridad Cisco web security</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <button type="button" class="cerrar" data-dismiss="modal" aria-label="cerrar">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
@@ -864,7 +864,7 @@
       </div>
     </div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">cerrar</button>
 
     </div>
   </div>
@@ -985,7 +985,7 @@
                               <h5>Contacto</h5>
                               <ul>
                                 <li><i class="fa fa-envelope" aria-hidden="true"></i> contacto@eclipsemex.mx</li>
-                                <li><i class="fa fa-envelope" aria-hidden="true"></i> joel.bravo@eclipsemex.mx</li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i> ramon.@eclipsemex.mx</li>
                                   <li><i class="fa fa-phone" aria-hidden="true"></i> 55 5532.2480</li>
                                   <li><i class="fa fa-phone" aria-hidden="true"></i> 55 3685.2090</li>
                                   <li><i class="fa fa-mobile" aria-hidden="true"></i> 55 7958.1920</li>

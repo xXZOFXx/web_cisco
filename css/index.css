@@ -609,7 +609,7 @@ text-shadow: 5px 5px 5px black;
 
 /*responsivo alv*/
 
-@media only screen and (max-width: 1453px) {
+@media only screen and (max-width: 1606px) {
 
 
   .cuadro figure {
@@ -660,11 +660,82 @@ figure.effect-apollo img {
       }
 
   }
+/*
+
+  @media (min-width: 1744px){
+    .cuadro-lg figure {
+
+        max-height: 294px;
+
+    }
+}
+
+@media (min-width: 1624px){
+  .cuadro-lg figure {
+
+      max-height: 273px;
+
+  }
+}
 
 
-  @media (min-width: 576px){
-.modal-dialog{
-    max-width: 811px;
-    margin: 1.75rem auto;
+@media (min-width: 1558px){
+  .cuadro-lg figure {
+
+      max-height: 261px;
+
+  }
 }
+
+
+@media (min-width: 1520px){
+  .cuadro-lg figure {
+
+      max-height: 251px;
+
+  }
 }
+
+@media (min-width: 1514px){
+  .cuadro-lg figure {
+
+      max-height: 257px;
+
+  }
+}
+
+@media (min-width: 1512px){
+  .cuadro-lg figure {
+
+      max-height: 252px;
+
+  }
+}
+
+*/
+
+
+
+
+
+
+/*responsivo grande
+
+
+.cuadro-lg figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 880px;///
+    max-height: 257px;
+    width: 48%;
+    height: auto;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+*/
