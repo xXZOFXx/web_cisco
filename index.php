@@ -469,7 +469,7 @@
                   <div class="cuadro-lg">
 
                         <figure class="effect-apollo lg umbrella" style="width:100%;">
-                            <img src="images/umbrella1.jpg" alt=""/>
+                            <img src="images/CiscoUmbrella.jpg" alt=""/>
 
                                 <figcaption>
                                   <h2>Cisco Umbrella</h2>
