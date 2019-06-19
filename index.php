@@ -441,7 +441,7 @@
   <div class="col-md-6">
       <div class="col">
 
-          <div class="cuadro">
+          <div class="cuadro" style="padding-top: 0em;">
               <figure class="effect-apollo">
                   <img src="images/firewall.jpg"  alt="img18"/>
 
@@ -466,7 +466,7 @@
 
                   </div>
 
-                  <div class="cuadro-lg">
+                  <div class="cuadro-lg" style="padding-top: 0em;">
 
                         <figure class="effect-apollo lg " style="width:100%;">
                             <img src="images/CiscoUmbrella.jpg" alt="img22"/>
@@ -486,7 +486,7 @@
 <div class="col-md-6">
 
       <div class="col">
-        <div class="cuadro-lg">
+        <div class="cuadro-lg" style="padding-top: 0em;">
 
               <figure class="effect-apollo lg" style="width:100%;">
                   <img src="images/meraki.jpg" alt="img22"/>
@@ -497,7 +497,7 @@
                                 </figcaption>
                         </figure>
         </div>
-          <div class="cuadro">
+          <div class="cuadro" style="padding-top: 0em;">
               <figure class="effect-apollo">
                 <img src="images/endpoints.jpg" alt="img18"/>
 
@@ -527,7 +527,7 @@
   <div class="col-md-6">
       <div class="col">
 
-          <div class="cuadro">
+          <div class="cuadro" style="padding-top: 0em;">
               <figure class="effect-apollo">
                   <img src="images/hdigital.jpg" alt="img18"/>
 
@@ -563,7 +563,7 @@
 <div class="col-md-6">
     <div class="col">
 
-        <div class="cuadro">
+        <div class="cuadro" style="padding-top: 0em;">
             <figure class="effect-apollo">
                 <img src="images/mail.jpg" alt="img18"/>
 
