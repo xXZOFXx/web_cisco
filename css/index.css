@@ -448,7 +448,7 @@ figure.effect-apollo figcaption::before {
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%; /*205*/
+	height: 179%%; /*205*/
 	background: rgba(255,255,255,0.5);
 	content: '';
 	-webkit-transition: -webkit-transform 0.6s;
