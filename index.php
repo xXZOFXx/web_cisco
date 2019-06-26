@@ -466,9 +466,9 @@
 
                   </div>
 
-                  <div class="cuadro-lg" style="padding-top: 0em;">
+                  <div class="cuadro" >
 
-                        <figure class="effect-apollo lg " style="width:100%;">
+                        <figure class="effect-apollo" style="width:100%;">
                             <img src="images/CiscoUmbrella.jpg" alt="img22"/>
 
                                 <figcaption>
@@ -486,9 +486,9 @@
 <div class="col-md-6">
 
       <div class="col">
-        <div class="cuadro-lg" style="padding-top: 0em;">
+        <div class="cuadro" >
 
-              <figure class="effect-apollo lg" style="width:100%;">
+              <figure class="effect-apollo">
                   <img src="images/meraki.jpg" alt="img22"/>
 
                       <figcaption>
@@ -1011,43 +1011,81 @@
 
 
 
-
   <script>
-    function enviarBtn(){
-        var nombre=document.getElementById('nombre').value;
-        var apellidos=document.getElementById('apellidos').value;
-        var empresa=document.getElementById('empresa').value;
-        var telefono=document.getElementById('telefono').value;
-        var correo=document.getElementById('correo').value;
-        var pais=document.getElementById('pais').value;
-        var comentarios=document.getElementById('comentarios').value;
-        var oculto=document.getElementById('oculto').value;
-        console.log("Nom: " + nombre);
-        console.log("Ap: " + apellidos);
-        if (nombre=="" || apellidos=="" || empresa=="" || correo=="" || comentarios=="") {
-            alert("Llenar los campos requeridos");
-            console.log("Llenar los campos requeridos");
-        } else{
-          $.ajax({
-              url: 'ingresarDatos.php',
-              type: 'POST',
-              data: {
-                  nombre: nombre,
-                  apellidos: apellidos,
-                  empresa: empresa,
-                  telefono: telefono,
-                  correo: correo,
-                  pais: pais,
-                  comentarios: comentarios,
-                  oculto: oculto
-              },
-              async:false,
-              success: function(msg) {
-                alert('Registro enviado.');
-                window.location.replace("https://www.eclipsemex.com");
+      function enviarBtn(){
+          var nombre=document.getElementById('nombre').value;
+          var apellidos=document.getElementById('apellidos').value;
+          var empresa=document.getElementById('empresa').value;
+          var telefono=document.getElementById('telefono').value;
+          var correo=document.getElementById('correo').value;
+          var pais=document.getElementById('pais').value;
+          var comentarios=document.getElementById('comentarios').value;
+          var oculto=document.getElementById('oculto').value;
+          console.log("Nom: " + nombre);
+          console.log("Ap: " + apellidos);
+          if (nombre=="" || apellidos=="" || empresa=="" || correo=="" || comentarios=="") {
+              alert("Llenar los campos requeridos");
+              console.log("Llenar los campos requeridos");
+          } else{
+
+
+            $.ajax({
+                url: 'ingresarDatos.php',
+                type: 'POST',
+                data: {
+                    nombre: nombre,
+                    apellidos: apellidos,
+                    empresa: empresa,
+                    telefono: telefono,
+                    correo: correo,
+                    pais: pais,
+                    comentarios: comentarios,
+                    oculto: oculto
+                },
+                async:false,
+                success: function(msg) {
+                  alert('Registro enviado.');
+                  window.location.replace("https://www.eclipsemex.com");
+                }
+            });
+
+
+              /*var data = {
+                    nombre: nombre,
+                    apellidos: apellidos,
+                    empresa: empresa,
+                    telefono: telefono,
+                    correo: correo,
+                    pais: pais,
+                    comentarios: comentarios,
+                    oculto: oculto,
+                    destinatario: "deivid_adni@hotmail.com",
+                    producto: "Cisco"
               }
-          });
-        }
-    }
-  </script>
+              fetch('18.217.147.215:8080/MailWS/servicios/enviarCorreo', {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers:{
+                    'Content-Type': 'application/json'
+                }
+              })
+              .then(function(response) {
+                 if(response.ok) {
+                     return response.text()
+                 } else {
+                     throw "Error en la llamada fetch";
+                 }
+
+              })
+              .then(function(texto) {
+                 console.log(texto);
+              })
+              .catch(function(err) {
+                 console.log(err);
+              }); */
+
+
+          }
+      }
+    </script>
 </html>
