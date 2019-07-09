@@ -69,8 +69,9 @@
 
 	    $mail->From     = $correo;
 	    $mail->FromName = $nombre;
-	    $mail->AddAddress("ramon.villagran@eclipsemex.mx"); // Dirección a la que llegaran los mensajes.
-	    $mail->AddAddress("contacto@eclipsemex.com"); // Dirección a la que llegaran los mensajes.
+	    //$mail->AddAddress("ramon.villagran@eclipsemex.mx"); // Dirección a la que llegaran los mensajes.
+	    //$mail->AddAddress("contacto@eclipsemex.com"); // Dirección a la que llegaran los mensajes.
+		$mail->AddAddress("cisco.soluciones@eclipsemex.mx"); // Dirección a la que llegaran los mensajes.
 
 	    //echo "entra a direccion de correo";
 
@@ -93,8 +94,8 @@
 	    $mail->IsSMTP();
 	    $mail->Host = "mail.eclipsemex.com";  // Servidor de Salida.
 	    $mail->SMTPAuth = true;
-	    $mail->Username = "david.reyes@eclipsemex.com";  // Correo Electrónico
-	    $mail->Password = "DReyes@2016"; // Contraseña
+	    $mail->Username = "ricardo.zuniga@eclipsemex.com";  // Correo Electrónico
+	    $mail->Password = "RZuniga@2016"; // Contraseña
 
 	    if ($mail->Send()){
 	        echo "<script>alert('Formulario Enviado'); window.location.href = 'index.php';</script>";
