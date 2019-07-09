@@ -38,7 +38,7 @@
 
     <nav class="navbar navbar-dark" style="background:#005073;">
         <a class="navbar-brand" href="#">
-          <img src="images/icon1.png" width="60" height="40" alt="">
+          <img src="images/icon1.png" width="60" height="50" alt="">
             </a>
                 </nav>
 
@@ -51,7 +51,7 @@
                   <div class="imagen">
                     <div class="inic">
                       <div class="col inicio">
-                        <h1 class="h1">Conoce todas las soluciones de tecnologia que cisco tiene para mejorar la productividad en tu empresa</h1>
+                        <h1 class="h1">Conoce las soluciones de Ciberseguridad que Cisco Systems & Eclipse ofrecen para mejorar la seguridad en tu empresa.</h1>
                       </div>
 
 
@@ -984,11 +984,11 @@
                             <div class="texto">
                               <h5>Contacto</h5>
                               <ul>
-                                <li><i class="fa fa-envelope" aria-hidden="true"></i> contacto@eclipsemex.mx</li>
-                                <li><i class="fa fa-envelope" aria-hidden="true"></i> ramon.@eclipsemex.mx</li>
+
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i> cisco.soluciones@eclipsemex.com</li>
                                   <li><i class="fa fa-phone" aria-hidden="true"></i> 55 5532.2480</li>
-                                  <li><i class="fa fa-phone" aria-hidden="true"></i> 55 3685.2090</li>
-                                  <li><i class="fa fa-mobile" aria-hidden="true"></i> 55 7958.1920</li>
+                                  <li><i class="fa fa-mobile" aria-hidden="true"></i> 44 2471.6796</li>
+                                  <li><i class="fa fa-mobile" aria-hidden="true"></i> 55 3847.3899</li>
 
                               </ul>
                             </div>

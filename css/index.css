@@ -47,6 +47,8 @@ background-repeat: no-repeat;
 
 background-color: black;
 
+height: 650px;
+
 
 
 }
@@ -352,7 +354,7 @@ text-align: center;
 	position: relative;
 	clear: both;
 	margin: 0 auto;
-	
+
 	max-width: 1000px;
 	list-style: none;
 	text-align: center;
