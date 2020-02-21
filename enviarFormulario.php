@@ -10,15 +10,15 @@
     $mail = new PHPMailer();
     $mail -> CharSet = "UTF-8";
 
-    $mail->From     = ("david.reyes@eclipsemex.com"); //Dirección desde la que se enviarán los mensajes. Debe ser la misma de los datos de el servidor SMTP.
-    $mail->FromName = $nombre; 
-    $mail->AddAddress("juan.bustos@eclipsemex.com"); // Dirección a la que llegaran los mensajes.
+    $mail->From     = ("david.reyes@eclipsemex.mx"); //Dirección desde la que se enviarán los mensajes. Debe ser la misma de los datos de el servidor SMTP.
+    $mail->FromName = $nombre;
+    $mail->AddAddress("ricardo.zuniga@eclipsemex.mx"); // Dirección a la que llegaran los mensajes.
     //$mail->AddAddress("findes@prodigy.net.mx"); // Dirección a la que llegaran los mensajes.
-    
+
     // Aquí van los datos que apareceran en el correo que reciba
 
-    $mail->WordWrap = 50; 
-    $mail->IsHTML(true);     
+    $mail->WordWrap = 50;
+    $mail->IsHTML(true);
     $mail->Subject  =  "Solicitud de información - Cursos en su Empresa";
     $mail->Body     =  "Una persona realizó contacto por medio de la página Web <a href=\"http://www.findes.org\">www.findes.org</a>, a continuación se mostrarán los detalles ingresados por el visitante:<br><br>".
                         "Nombre: " . $nombre . " <br> ".
@@ -34,9 +34,9 @@
 
     // Datos del servidor SMTP
 
-    $mail->IsSMTP(); 
+    $mail->IsSMTP();
     $mail->Host = "mail.findes.org:2525";  // Servidor de Salida.
-    $mail->SMTPAuth = true; 
+    $mail->SMTPAuth = true;
     $mail->Username = "web@findes.org";  // Correo Electrónico
     $mail->Password = "Informes81*"; // Contraseña
 

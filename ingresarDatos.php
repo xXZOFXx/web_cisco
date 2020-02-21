@@ -71,8 +71,8 @@
 	    $mail->FromName = $nombre;
 	    //$mail->AddAddress("ramon.villagran@eclipsemex.mx"); // Dirección a la que llegaran los mensajes.
 	    //$mail->AddAddress("contacto@eclipsemex.com"); // Dirección a la que llegaran los mensajes.
-		$mail->AddAddress("cisco.soluciones@eclipsemex.mx"); // Dirección a la que llegaran los mensajes.
-
+	//	$mail->AddAddress("cisco.soluciones@eclipsemex.mx"); // Dirección a la que llegaran los mensajes.
+	$mail->AddAddress("ricardo.zuniga@eclipsemex.mx");
 	    //echo "entra a direccion de correo";
 
 	    // Aquí van los datos que apareceran en el correo que reciba
